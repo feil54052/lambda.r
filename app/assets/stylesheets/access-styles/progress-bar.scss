@@ -1,0 +1,7 @@
+$progress-bar-background-color: $brand-info;
+$progress-bar-height: 5px;
+
+html.turbolinks-progress-bar::before {
+  background-color: $progress-bar-background-color;
+  height: $progress-bar-height;
+}

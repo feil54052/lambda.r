@@ -1,0 +1,60 @@
+.section-xl {margin: 100px 0}
+.section-l {margin: 80px 0}
+.section-m {margin: 40px 0}
+.section-s {margin: 20px 0}
+
+@for $i from 0 to 31 {
+  $multiplier: $i * 5;
+  .pad-#{$multiplier} {
+    padding: #{$multiplier}px !important;
+  }
+  .pad-horizontal-#{$multiplier} {
+    padding-left: #{$multiplier}px !important;
+    padding-right: #{$multiplier}px !important;
+  }
+  .pad-vertical-#{$multiplier} {
+    padding-top: #{$multiplier}px !important;
+    padding-bottom: #{$multiplier}px !important;
+  }
+  .pad-top-#{$multiplier} {
+    padding-top: #{$multiplier}px !important;
+  }
+  .pad-bottom-#{$multiplier} {
+    padding-bottom: #{$multiplier}px !important;
+  }
+  .pad-left-#{$multiplier} {
+    padding-left: #{$multiplier}px !important;
+  }
+  .pad-right-#{$multiplier} {
+    padding-right: #{$multiplier}px !important;
+  }
+  .margin-#{$multiplier} {
+    margin: #{$multiplier}px !important;
+  }
+  .margin-horizontal-#{$multiplier} {
+    margin-left: #{$multiplier}px !important;
+    margin-right: #{$multiplier}px !important;
+  }
+  .margin-vertical-#{$multiplier} {
+    margin-top: #{$multiplier}px !important;
+    margin-bottom: #{$multiplier}px !important;
+  }
+  .margin-top-#{$multiplier} {
+    margin-top: #{$multiplier}px !important;
+  }
+  .margin-left-#{$multiplier} {
+    margin-left: #{$multiplier}px !important;
+  }
+  .margin-right-#{$multiplier} {
+    margin-right: #{$multiplier}px !important;
+  }
+  .margin-bottom-#{$multiplier} {
+    margin-bottom: #{$multiplier}px !important;
+  }
+  .negative-top-#{$multiplier} {
+    margin-top: -#{$multiplier}px !important;
+  }
+  .negative-bottom-#{$multiplier} {
+    margin-bottom: -#{$multiplier}px !important;
+  }
+}

@@ -1,0 +1,33 @@
+@mixin white-link{
+  text-shadow: 0px 1px 2px #1d1d1d;
+  color: #fff;
+  &:hover{
+    color: #fff !important;
+  }
+}
+
+@mixin shadow($radius: 20px) {
+  -webkit-box-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  -o-box-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  box-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+}
+
+@mixin text-shadow($radius: 5px) {
+  -webkit-text-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  -moz-text-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  -o-text-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+  text-shadow: 0px 0px $radius rgba(0,0,0,0.5);
+}
+
+@mixin radius($radius: 6px) {
+  -wekbit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -o-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin font-awesome {
+  font-family: 'FontAwesome';
+}

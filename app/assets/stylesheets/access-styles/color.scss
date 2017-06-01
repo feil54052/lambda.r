@@ -1,0 +1,50 @@
+// * * * * * * * * * * * * * * * * * * * * * * * * * * VARIALBES
+$red:            #e54729;
+$sky-blue:       invert($red);
+$blue:           #002e62;
+$yellow:         #ffcc00;
+$green:          lighten(#55a602,8.5%);
+
+$black:          #000;
+$white:          #fff;
+$mid-tone:       #9ea7ad;
+$lighter-tone:   lighten($mid-tone, 30%);
+$light-tone:     lighten($mid-tone, 15%);
+$dark-tone:      darken($mid-tone, 30%);
+$darker-tone:    darken($mid-tone, 45%);
+
+
+
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * COLOR HELPERS
+.bg-red{background: $red !important;}
+.bg-sky-blue{background: $sky-blue !important;}
+.bg-blue{background: $blue !important;}
+.bg-yellow{background: $yellow !important;}
+.bg-green{background: $green !important;}
+
+.text-red{color: $red !important;}
+.text-sky-blue{color: $sky-blue !important;}
+.text-blue{color: $blue !important;}
+.text-yellow{color: $yellow !important;}
+.text-green{color: $green !important;}
+
+
+
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * TONE HELPERS
+.bg-white{background: $white !important;}
+.bg-black{background: $black !important;}
+.bg-lighter-tone{background: $lighter-tone !important;}
+.bg-light-tone{background: $light-tone !important;}
+.bg-mid-tone{background: $mid-tone !important;}
+.bg-dark-tone{background: $dark-tone !important;}
+.bg-darker-tone{background: $darker-tone !important;}
+
+.text-white{color: $white !important;}
+.text-black{color: $black !important;}
+.text-lighter-tone{color: $lighter-tone !important;}
+.text-light-tone{color: $light-tone !important;}
+.text-mid-tone{color: $mid-tone !important;}
+.text-dark-tone{color: $dark-tone !important;}
+.text-darker-tone{color: $darker-tone !important;}
